@@ -21,7 +21,7 @@ polinomio = Calcular_poli_minimos(x,y)
 y_fit = polinomio(x_vals)
 
 # Graficar los datos 
-plt.scatter(x, y, label='Datos')
-plt.plot(x_vals, y_fit, label='Ajuste polinómico', color='red')
-plt.legend()
-plt.show()
+#plt.scatter(x, y, label='Datos')
+#plt.plot(x_vals, y_fit, label='Ajuste polinómico', color='red')
+#plt.legend()
+#plt.show()

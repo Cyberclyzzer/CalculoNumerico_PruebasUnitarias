@@ -1,10 +1,7 @@
 import pytest
 import numpy as np
 from scipy.interpolate import CubicSpline
-import os 
-import sys 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from Trazado_Cubico import trazador_cubico_sujeto  
+from src.Trazado_Cubico import trazador_cubico_sujeto  
 
 def test_trazador_cubico_sujeto():
     # Datos de prueba

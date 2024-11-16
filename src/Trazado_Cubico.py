@@ -18,7 +18,7 @@ x_vals = np.linspace(0, 5, 100)
 y_eval = f(x_vals)
 
 # Visualizar la curva
-plt.plot(x, y, 'o', label='Puntos de control')
-plt.plot(x_vals, y_eval, label='Trazador cúbico')
-plt.legend()
-plt.show()
+#plt.plot(x, y, 'o', label='Puntos de control')
+#plt.plot(x_vals, y_eval, label='Trazador cúbico')
+#plt.legend()
+#plt.show()

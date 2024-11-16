@@ -1,12 +1,8 @@
-import sys
-import os
 import pandas as pd
 from scipy.linalg import solve
 import pytest
 import numpy as np
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from Resolver_Sistema import resolver_sistema  # Importar la función desde el módulo correcto
-
+from src.Resolver_Sistema import resolver_sistema  # Importar la función desde el módulo correcto
 
 
 
